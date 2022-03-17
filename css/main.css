@@ -1,0 +1,57 @@
+body::-webkit-scrollbar-thumb {
+  width: 12px;
+  background-color: #090b52;
+  border-radius: 8mm;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #fff;
+}
+
+.animate {
+  -webkit-animation-name: shakeY;
+          animation-name: shakeY;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  z-index: 10;
+}
+
+.all {
+  margin-bottom: 120px;
+}
+
+.all .slider {
+  margin-top: 100px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.all .slider .slider-item {
+  height: 400px;
+  border: 1px solid red;
+  background-color: #ccc;
+  margin-bottom: 3px;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.all-box .card {
+  margin-bottom: 40px;
+}
+
+.scroll-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
